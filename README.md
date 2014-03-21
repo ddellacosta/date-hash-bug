@@ -1,4 +1,4 @@
-Date hashing is broken (uses goog/getUID) in ClojureScript, which has the nasty side effect of breaking sets badly, for one.
+Date hashing is broken (uses goog/getUid) in ClojureScript, which has the nasty side effect of breaking sets badly, for one.
 
 Context:
 * [IHash not extended to js/Date](http://dev.clojure.org/jira/browse/CLJS-523)
